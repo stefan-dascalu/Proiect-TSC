@@ -1,5 +1,6 @@
 Dascalu Stefan-Nicolae 331 CA
 # Proiect-TSC
+## Implementare:
 
 - **Implementarea Schemei Electrice:**
   - Am implementat schema electrica exact conform modelului primit.
@@ -18,3 +19,10 @@ Dascalu Stefan-Nicolae 331 CA
 - **Modelul 3D:**
   - Modelul 3D al dispozitivului nu a fost implementat.
 
+## BOM:
+| Component                                               | Datasheet                                                | Purchase Link                                 |
+|---------------------------------------------------------|----------------------------------------------------------|-----------------------------------------------|
+| ADAFRUIT_LEDCHIP-LED0603                                  | [Datasheet](https://www.adafruit.com/product/XYZ)        | [Mouser](https://www.mouser.com/adafruit-ledchip) |
+| SJ (SMD solder JUMPER)                                    | N/A                                                      | [Mouser](https://www.mouser.com/search/sj-jumper)   |
+| ESP32_WROVER_EAGLE-LTSPICE_CC0402 (0.1uF/50V Capacitor)    | [Datasheet](https://example.com/datasheet_cap)           | [Comet](https://www.comet.com/product/ESP32_cap)      |
+| ESP32_WROVER_EAGLE-LTSPICE_RR0402 (0.47 Resistor)           | [Datasheet](https://example.com/datasheet_res)           | [Mouser](https://www.mouser.com/search/esp32_resistor)|
