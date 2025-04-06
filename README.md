@@ -20,7 +20,7 @@ Dascalu Stefan-Nicolae 331CA
   - Modelul 3D al dispozitivului nu a fost implementat.
 
 
-## Descriere Hardware Detaliata si Asignarea Pinilor pe ESP32-C6
+## Descriere Hardware si Asignarea Pinilor pe ESP32-C6
 
 - **ESP32-C6-WROOM-1-N8 (Microcontroler Principal)**
   - Microcontrolerul ofera suport pentru WiFi 6, Bluetooth 5 LE si dispune de un nucleu RISC-V ce functioneaza pana la 160 MHz.
