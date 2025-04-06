@@ -24,7 +24,6 @@ Dascalu Stefan-Nicolae 331 CA
 |---------------------------------------------------------|------------------|
 | ADAFRUIT_LEDCHIP-LED0603                                  | [Click here](https://www.snapeda.com/parts/KP-1608SURCK/Kingbright/view-part/?ref=search&t=LED%200603)   |
 | SJ                                                      | [Click here](https://grabcad.com/library/solder-jumpers-1)   |
-| ESP32_WROVER_EAGLE-LTSPICE_CC0402                         | [Click here](https://componentsearchengine.com/part-view/CC0402MRX5R5BB106/YAGEO)   |
 | 112ATAARR03                       | [Click here](https://www.snapeda.com/parts/112A-TAAR-R03/Attend/view-part/)   |
 | 112A-TAAR-R03_ATTEND                                     | [Click here](https://www.snapeda.com/parts/112A-TAAR-R03/Attend/view-part/)   |
 | RCL_CPOL-EUCT3528                                       | [Click here](https://grabcad.com/library/tantalum-smd-capacitor-type-b-3528-1)   |
@@ -34,9 +33,14 @@ Dascalu Stefan-Nicolae 331 CA
 | 744043680                                 | [Click here](https://eu.mouser.com/ProductDetail/Wurth-Elektronik/744043680?qs=PGXP4M47uW6VkZq%252BkzjrHA%3D%3D)   |
 | BD5229G-TR                                  | [Click here](https://www.snapeda.com/parts/BD5229G-TR/Rohm/view-part/?ref=search&t=BD5229G-TR)   |
 | ESP32_WROVER_BME680_BME680                               | [Click here](https://www.snapeda.com/parts/BME680/Bosch%20Sensortec/view-part/?ref=search&t=bme680)   |
+| ESP32_WROVER_EAGLE-LTSPICE_R                              | [Click here](https://componentsearchengine.com/part-view/R0402%201%25%20100%20K%20(RC0402FR-07100KL)/YAGEO)   |
+| ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH                                | [Click here](https://componentsearchengine.com/part-view/DMG2305UX-7/Diodes%20Incorporated)   |
+| ESP32_WROVER_SPARKFUN-IC-POWER_MCP73831                              | [Click here](https://componentsearchengine.com/part-view/MCP73831T-2ACI%2FOT/Microchip)   |
+| FH34SRJ-24S-0.5SH_99_                                 | [Click here](https://componentsearchengine.com/part-view/FH34SRJ-24S-0.5SH(99)/Hirose)   |
+| TP                                 | - |
+| SI1308EDL-T1-GE3                                  | [Click here](https://www.snapeda.com/parts/SI1308EDL-T1-GE3/Vishay/view-part/)   |
 | ESP32C6_VARISTORCN1812                                  | [Click here]()   |
-| ESP32C6_VARISTORCN1812                                  | [Click here]()   |
-| ESP32C6_VARISTORCN1812                                  | [Click here]()   |
+
 | ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0  | [Click here](https://componentsearchengine.com/part-view/SD0805S020S1R0/Kyocera%20AVX)   |
 | CPH3225A                                               | [Click here](https://www.snapeda.com/parts/CPH3225A/Seiko/view-part/)   |
 | MAX17048G+T10                                          | [Click here](https://www.snapeda.com/parts/MAX17048G+T10/Analog%20Devices/view-part/)   |
