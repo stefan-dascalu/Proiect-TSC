@@ -20,27 +20,117 @@ Dascalu Stefan-Nicolae 331 CA
   - Modelul 3D al dispozitivului nu a fost implementat.
 
 ## BOM:
-| Component                                               | Datasheet | Purchase Link |
-|---------------------------------------------------------|-----------|---------------|
-| ADAFRUIT_LEDCHIP-LED0603                                  |           |               |
-| SJ                                                      |           |               |
-| ESP32_WROVER_EAGLE-LTSPICE_CC0402                         |           |               |
-| ESP32_WROVER_EAGLE-LTSPICE_RR0402                         |           |               |
-| EAGLE-LTSPICE_CC0402                                      |           |               |
-| 112A-TAAR-R03_ATTEND                                     |           |               |
-| RCL_CPOL-EUCT3528                                       |           |               |
-| BUTTON_CUSYOMV1                                         |           |               |
-| DS3231SN#                                              |           |               |
-| ESP32-C6-WROOM-1-N8                                     |           |               |
-| ESP32C6_VARISTORCN1812                                  |           |               |
-| ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0  |           |               |
-| CPH3225A                                               |           |               |
-| MAX17048G+T10                                          |           |               |
-| MBR0530                                               |           |               |
-| PGB1010603MR                                           |           |               |
-| QWIIC_RIGHT_ANGLE (QWIIC_CONNECTORJS-1MM)               |           |               |
-| SAMACSYS_PARTS_USB4110-GF-A                              |           |               |
-| USBLC6-2SC6Y                                           |           |               |
-| W25Q512JVEIQ                                           |           |               |
-| XC6220A331MR-G                                         |           |               |
+<table>
+  <tr>
+    <th style="min-width: 300px;">Component</th>
+    <th style="min-width: 250px;">Datasheet</th>
+    <th style="min-width: 250px;">Purchase Link</th>
+  </tr>
+  <tr>
+    <td>ADAFRUIT_LEDCHIP-LED0603</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>SJ</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>ESP32_WROVER_EAGLE-LTSPICE_CC0402</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>ESP32_WROVER_EAGLE-LTSPICE_RR0402</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>EAGLE-LTSPICE_CC0402</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>112A-TAAR-R03_ATTEND</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>RCL_CPOL-EUCT3528</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>BUTTON_CUSYOMV1</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>DS3231SN#</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>ESP32-C6-WROOM-1-N8</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>ESP32C6_VARISTORCN1812</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>CPH3225A</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>MAX17048G+T10</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>MBR0530</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>PGB1010603MR</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>QWIIC_RIGHT_ANGLE (QWIIC_CONNECTORJS-1MM)</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>SAMACSYS_PARTS_USB4110-GF-A</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>USBLC6-2SC6Y</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>W25Q512JVEIQ</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+  <tr>
+    <td>XC6220A331MR-G</td>
+    <td><a href="#">Click here</a></td>
+    <td><a href="#">Click here</a></td>
+  </tr>
+</table>
+
 
