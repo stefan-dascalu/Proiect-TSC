@@ -37,7 +37,7 @@ Dascalu Stefan-Nicolae 331 CA
 | ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH                                | [Click here](https://componentsearchengine.com/part-view/DMG2305UX-7/Diodes%20Incorporated)   |
 | ESP32_WROVER_SPARKFUN-IC-POWER_MCP73831                              | [Click here](https://componentsearchengine.com/part-view/MCP73831T-2ACI%2FOT/Microchip)   |
 | FH34SRJ-24S-0.5SH_99_                                 | [Click here](https://componentsearchengine.com/part-view/FH34SRJ-24S-0.5SH(99)/Hirose)   |
-| TP                                 | - |
+| TP                                 | |- |
 | SI1308EDL-T1-GE3                                  | [Click here](https://www.snapeda.com/parts/SI1308EDL-T1-GE3/Vishay/view-part/)   |
 | ESP32C6_VARISTORCN1812                                  | [Click here]()   |
 
