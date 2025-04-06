@@ -19,37 +19,19 @@ Dascalu Stefan-Nicolae 331CA
 - **Modelul 3D:**
   - Modelul 3D al dispozitivului nu a fost implementat.
 
-```mermaid
 graph TD;
-    ESP[ESP32-C6-WROOM-1-N8 (Microcontroller)]
-    EInk[E-Ink Display (7.5", SPI)]
-    BME[BME688 (Environmental Sensor, I2C)]
-    RTC[DS3231 (RTC, I2C)]
-    SD[SD Card Module (SPI)]
-    Flash[W25Q512JVEIQ (64MB NOR Flash, SPI)]
-    Btn[Butoane Boot/Reset (GPIO)]
-    BatMon[MAX17048 (Battery Monitor, I2C)]
-    USB[USB-C Port (Power & Data)]
-    Qwiic[Qwiic/Stemma Connector (I2C Expansion)]
-    Pwr[Power Management System]
-    Batt[Baterie Li-Po (3.7V, 2500mAh)]
-    Charger[MCP73831 (Charging Controller)]
-    LDO[LDO XC6220A331MR-G (3.3V)]
-    
-    ESP -->|SPI| EInk
-    ESP -->|I2C| BME
-    ESP -->|I2C| RTC
-    ESP -->|SPI| SD
-    ESP -->|SPI| Flash
-    ESP --> Btn
-    ESP -->|I2C| BatMon
-    ESP --> USB
-    ESP -->|I2C| Qwiic
-    ESP --> Pwr
-    Pwr --> Batt
-    Pwr --> Charger
-    Pwr --> LDO
-```
+    ESP[ESP32-C6-WROOM-1-N8 (Microcontroller)] --> EInk[E-Ink Display (7.5", SPI)]
+    ESP --> Env[Environmental Modules]
+    Env --> BME[BME688 (I2C)]
+    Env --> RTC[DS3231 (I2C)]
+    ESP --> Storage[Storage Modules]
+    Storage --> SD[SD Card Module (SPI)]
+    Storage --> Flash[W25Q512JVEIQ (64MB NOR Flash, SPI)]
+    ESP --> Power[Power System]
+    Power --> Battery[Baterie Li-Po (3.7V, 2500mAh)]
+    Power --> Charger[MCP73831 (Charging Controller)]
+    Power --> LDO[LDO XC6220A331MR-G (3.3V)]
+
 
 ## Descriere Hardware si Asignarea Pinilor pe ESP32-C6
 
