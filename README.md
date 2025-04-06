@@ -20,29 +20,34 @@ Dascalu Stefan-Nicolae 331 CA
   - Modelul 3D al dispozitivului nu a fost implementat.
 
 ## BOM:
-| Component                                               | Datasheet         | Purchase Link      |
-|---------------------------------------------------------|-------------------|--------------------|
-| ADAFRUIT_LEDCHIP-LED0603                                  | [Click here]()    | [Click here]()     |
-| SJ                                                      | [Click here]()    | [Click here]()     |
-| ESP32_WROVER_EAGLE-LTSPICE_CC0402                         | [Click here]()    | [Click here]()     |
-| ESP32_WROVER_EAGLE-LTSPICE_RR0402                         | [Click here]()    | [Click here]()     |
-| EAGLE-LTSPICE_CC0402                                      | [Click here]()    | [Click here]()     |
-| 112A-TAAR-R03_ATTEND                                     | [Click here]()    | [Click here]()     |
-| RCL_CPOL-EUCT3528                                       | [Click here]()    | [Click here]()     |
-| BUTTON_CUSYOMV1                                         | [Click here]()    | [Click here]()     |
-| DS3231SN#                                              | [Click here]()    | [Click here]()     |
-| ESP32-C6-WROOM-1-N8                                     | [Click here]()    | [Click here]()     |
-| ESP32C6_VARISTORCN1812                                  | [Click here]()    | [Click here]()     |
-| ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0  | [Click here]()    | [Click here]()     |
-| CPH3225A                                               | [Click here]()    | [Click here]()     |
-| MAX17048G+T10                                          | [Click here]()    | [Click here]()     |
-| MBR0530                                               | [Click here]()    | [Click here]()     |
-| PGB1010603MR                                           | [Click here]()    | [Click here]()     |
-| QWIIC_RIGHT_ANGLE (QWIIC_CONNECTORJS-1MM)               | [Click here]()    | [Click here]()     |
-| SAMACSYS_PARTS_USB4110-GF-A                              | [Click here]()    | [Click here]()     |
-| USBLC6-2SC6Y                                           | [Click here]()    | [Click here]()     |
-| W25Q512JVEIQ                                           | [Click here]()    | [Click here]()     |
-| XC6220A331MR-G                                         | [Click here]()    | [Click here]()     |
+| Component                                               | Link             |
+|---------------------------------------------------------|------------------|
+| ADAFRUIT_LEDCHIP-LED0603                                  | [Click here](https://www.snapeda.com/parts/KP-1608SURCK/Kingbright/view-part/?ref=search&t=LED%200603)   |
+| SJ                                                      | [Click here](https://grabcad.com/library/solder-jumpers-1)   |
+| ESP32_WROVER_EAGLE-LTSPICE_CC0402                         | [Click here](https://componentsearchengine.com/part-view/CC0402MRX5R5BB106/YAGEO)   |
+| 112ATAARR03                       | [Click here](https://www.snapeda.com/parts/112A-TAAR-R03/Attend/view-part/)   |
+| 112A-TAAR-R03_ATTEND                                     | [Click here](https://www.snapeda.com/parts/112A-TAAR-R03/Attend/view-part/)   |
+| RCL_CPOL-EUCT3528                                       | [Click here](https://grabcad.com/library/tantalum-smd-capacitor-type-b-3528-1)   |
+| BUTTON_CUSYOMV1                                         | [Click here](https://www.snapeda.com/search/?q=EVQP7L01P&search-type=parts)   |
+| DS3231SN#                                              | [Click here](https://www.snapeda.com/parts/DS3231SN%23/Analog%20Devices/view-part/?ref=search&t=DS3231SN%23)   |
+| ESP32-C6-WROOM-1-N8                                     | [Click here](https://www.snapeda.com/parts/ESP32-C6-WROOM-1-N8/Espressif%20Systems/view-part/?ref=search&t=ESP32-C6-WROOM-1-N8)   |
+| 744043680                                 | [Click here](https://eu.mouser.com/ProductDetail/Wurth-Elektronik/744043680?qs=PGXP4M47uW6VkZq%252BkzjrHA%3D%3D)   |
+| BD5229G-TR                                  | [Click here](https://www.snapeda.com/parts/BD5229G-TR/Rohm/view-part/?ref=search&t=BD5229G-TR)   |
+| ESP32_WROVER_BME680_BME680                               | [Click here](https://www.snapeda.com/parts/BME680/Bosch%20Sensortec/view-part/?ref=search&t=bme680)   |
+| ESP32C6_VARISTORCN1812                                  | [Click here]()   |
+| ESP32C6_VARISTORCN1812                                  | [Click here]()   |
+| ESP32C6_VARISTORCN1812                                  | [Click here]()   |
+| ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0  | [Click here](https://componentsearchengine.com/part-view/SD0805S020S1R0/Kyocera%20AVX)   |
+| CPH3225A                                               | [Click here](https://www.snapeda.com/parts/CPH3225A/Seiko/view-part/)   |
+| MAX17048G+T10                                          | [Click here](https://www.snapeda.com/parts/MAX17048G+T10/Analog%20Devices/view-part/)   |
+| MBR0530                                               | [Click here](https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/)   |
+| PGB1010603MR                                           | [Click here](https://www.snapeda.com/parts/PGB1010603MR/Littelfuse/view-part/)   |
+| QWIIC_RIGHT_ANGLE (QWIIC_CONNECTORJS-1MM)               | [Click here](https://www.snapeda.com/parts/PRT-14417/SparkFun/view-part/)   |
+| SAMACSYS_PARTS_USB4110-GF-A                              | [Click here](https://www.snapeda.com/parts/USB4110-GF-A./Global%20Connector%20Technology/view-part/)   |
+| USBLC6-2SC6Y                                           | [Click here](https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part/?ref=dk&t=USBLC6-2SC6Y&con_ref=None)   |
+| W25Q512JVEIQ                                           | [Click here](https://www.snapeda.com/parts/W25Q512JVEIQ/Winbond%20Electronics/view-part/?ref=search&t=W25Q512JVEIQ)   |
+| XC6220A331MR-G                                         | [Click here](https://ro.mouser.com/ProductDetail/Torex-Semiconductor/XC6220A331MR-G?qs=AsjdqWjXhJ8ZSWznL1J0gg%3D%3D&utm_source=octopart&utm_medium=aggregator&utm_campaign=865-XC6220A331MR-G&utm_content=Torex%20Semiconductor)   |
+
 
 
 
