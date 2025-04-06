@@ -19,6 +19,7 @@ Dascalu Stefan-Nicolae 331CA
 - **Modelul 3D:**
   - Modelul 3D al dispozitivului nu a fost implementat.
 
+```mermaid
 graph TD;
     ESP[ESP32-C6-WROOM-1-N8 (Microcontroller)]
     EInk[E-Ink Display (7.5", SPI)]
@@ -48,8 +49,7 @@ graph TD;
     Pwr --> Batt
     Pwr --> Charger
     Pwr --> LDO
-
-
+```
 
 ## Descriere Hardware si Asignarea Pinilor pe ESP32-C6
 
