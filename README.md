@@ -21,7 +21,7 @@ Dascalu Stefan-Nicolae 331CA
 
 ## Diagrama bloc a proiectului:
 
-![Diagrama bloc](images/diagrama.png)
+![Diagrama bloc](images/diagrama.jpeg)
 
 ## Descriere Hardware si Asignarea Pinilor pe ESP32-C6
 
