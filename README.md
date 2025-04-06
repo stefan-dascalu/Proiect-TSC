@@ -1,4 +1,4 @@
-Dascalu Stefan-Nicolae 331 CA
+Dascalu Stefan-Nicolae 331CA
 # Proiect-TSC
 ## Implementare:
 
