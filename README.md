@@ -39,8 +39,6 @@ Dascalu Stefan-Nicolae 331 CA
 | FH34SRJ-24S-0.5SH_99_                                 | [Click here](https://componentsearchengine.com/part-view/FH34SRJ-24S-0.5SH(99)/Hirose)   |
 | TP                                 | - |
 | SI1308EDL-T1-GE3                                  | [Click here](https://www.snapeda.com/parts/SI1308EDL-T1-GE3/Vishay/view-part/)   |
-| ESP32C6_VARISTORCN1812                                  | [Click here]()   |
-
 | ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0  | [Click here](https://componentsearchengine.com/part-view/SD0805S020S1R0/Kyocera%20AVX)   |
 | CPH3225A                                               | [Click here](https://www.snapeda.com/parts/CPH3225A/Seiko/view-part/)   |
 | MAX17048G+T10                                          | [Click here](https://www.snapeda.com/parts/MAX17048G+T10/Analog%20Devices/view-part/)   |
