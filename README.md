@@ -25,7 +25,6 @@ Dascalu Stefan-Nicolae 331 CA
 | ADAFRUIT_LEDCHIP-LED0603                                  | [Click here](https://www.snapeda.com/parts/KP-1608SURCK/Kingbright/view-part/?ref=search&t=LED%200603)   |
 | SJ                                                      | [Click here](https://grabcad.com/library/solder-jumpers-1)   |
 | 112ATAARR03                       | [Click here](https://www.snapeda.com/parts/112A-TAAR-R03/Attend/view-part/)   |
-| 112A-TAAR-R03_ATTEND                                     | [Click here](https://www.snapeda.com/parts/112A-TAAR-R03/Attend/view-part/)   |
 | RCL_CPOL-EUCT3528                                       | [Click here](https://grabcad.com/library/tantalum-smd-capacitor-type-b-3528-1)   |
 | BUTTON_CUSYOMV1                                         | [Click here](https://www.snapeda.com/search/?q=EVQP7L01P&search-type=parts)   |
 | DS3231SN#                                              | [Click here](https://www.snapeda.com/parts/DS3231SN%23/Analog%20Devices/view-part/?ref=search&t=DS3231SN%23)   |
