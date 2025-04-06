@@ -20,9 +20,27 @@ Dascalu Stefan-Nicolae 331 CA
   - Modelul 3D al dispozitivului nu a fost implementat.
 
 ## BOM:
-| Component                                               | Datasheet                                                | Purchase Link                                 |
-|---------------------------------------------------------|----------------------------------------------------------|-----------------------------------------------|
-| ADAFRUIT_LEDCHIP-LED0603                                  | [Datasheet](https://www.adafruit.com/product/XYZ)        | [Mouser](https://www.mouser.com/adafruit-ledchip) |
-| SJ (SMD solder JUMPER)                                    | N/A                                                      | [Mouser](https://www.mouser.com/search/sj-jumper)   |
-| ESP32_WROVER_EAGLE-LTSPICE_CC0402 (0.1uF/50V Capacitor)    | [Datasheet](https://example.com/datasheet_cap)           | [Comet](https://www.comet.com/product/ESP32_cap)      |
-| ESP32_WROVER_EAGLE-LTSPICE_RR0402 (0.47 Resistor)           | [Datasheet](https://example.com/datasheet_res)           | [Mouser](https://www.mouser.com/search/esp32_resistor)|
+| Component                                               | Datasheet | Purchase Link |
+|---------------------------------------------------------|-----------|---------------|
+| ADAFRUIT_LEDCHIP-LED0603                                  |           |               |
+| SJ                                                      |           |               |
+| ESP32_WROVER_EAGLE-LTSPICE_CC0402                         |           |               |
+| ESP32_WROVER_EAGLE-LTSPICE_RR0402                         |           |               |
+| EAGLE-LTSPICE_CC0402                                      |           |               |
+| 112A-TAAR-R03_ATTEND                                     |           |               |
+| RCL_CPOL-EUCT3528                                       |           |               |
+| BUTTON_CUSYOMV1                                         |           |               |
+| DS3231SN#                                              |           |               |
+| ESP32-C6-WROOM-1-N8                                     |           |               |
+| ESP32C6_VARISTORCN1812                                  |           |               |
+| ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0  |           |               |
+| CPH3225A                                               |           |               |
+| MAX17048G+T10                                          |           |               |
+| MBR0530                                               |           |               |
+| PGB1010603MR                                           |           |               |
+| QWIIC_RIGHT_ANGLE (QWIIC_CONNECTORJS-1MM)               |           |               |
+| SAMACSYS_PARTS_USB4110-GF-A                              |           |               |
+| USBLC6-2SC6Y                                           |           |               |
+| W25Q512JVEIQ                                           |           |               |
+| XC6220A331MR-G                                         |           |               |
+
