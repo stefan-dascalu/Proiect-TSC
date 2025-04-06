@@ -19,6 +19,10 @@ Dascalu Stefan-Nicolae 331CA
 - **Modelul 3D:**
   - Modelul 3D al dispozitivului nu a fost implementat.
 
+## Diagrama bloc a proiectului:
+
+![Diagrama bloc](https://ibb.co/KpqgMXcq)
+
 ## Descriere Hardware si Asignarea Pinilor pe ESP32-C6
 
 - **ESP32-C6-WROOM-1-N8 (Microcontroler Principal)**
