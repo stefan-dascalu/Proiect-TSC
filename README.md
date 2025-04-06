@@ -19,6 +19,35 @@ Dascalu Stefan-Nicolae 331CA
 - **Modelul 3D:**
   - Modelul 3D al dispozitivului nu a fost implementat.
 
+graph TD
+    ESP[ESP32-C6-WROOM-1-N8<br>(Main Microcontroller)]
+    EINK[E-Ink Display<br>(7.5", SPI)]
+    BME[BME688<br>(Environmental Sensor, I2C)]
+    RTC[DS3231SN<br>(Real-Time Clock, I2C)]
+    SD[SD Card Module<br>(SPI)]
+    FLASH[W25Q512JVEIQ<br>(64MB Flash, SPI)]
+    BTN[Boot/Reset Buttons<br>(GPIO)]
+    BAT[MAX17048<br>(Battery Monitor, I2C)]
+    PM[Power Management System]
+    BATTERY[Li-Po Battery<br>(3.7V, 2500mAh)]
+    CHARGER[MCP73831<br>(Charger, USB-C)]
+    LDO[XC6220A331MR-G<br>(LDO, 3.3V)]
+    USB[USB-C Port<br>(Power & Data)]
+    QWIIC[Qwiic/Stemma Connector<br>(I2C Expansion)]
+    
+    ESP -->|SPI| EINK
+    ESP -->|I2C| BME
+    ESP -->|I2C| RTC
+    ESP -->|SPI| SD
+    ESP -->|SPI| FLASH
+    ESP --> BTN
+    ESP -->|I2C| BAT
+    ESP --> USB
+    ESP -->|I2C| QWIIC
+    PM --> BATTERY
+    PM --> CHARGER
+    PM --> LDO
+    ESP --> PM
 
 ## Descriere Hardware si Asignarea Pinilor pe ESP32-C6
 
