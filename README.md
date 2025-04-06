@@ -20,34 +20,35 @@ Dascalu Stefan-Nicolae 331CA
   - Modelul 3D al dispozitivului nu a fost implementat.
 
 graph TD;
-    ESP[ESP32-C6-WROOM-1-N8<br>(Microcontroller)]
-    EInk[E-Ink Display<br>(7.5", SPI)]
-    BME[BME688<br>(Environmental Sensor, I2C)]
-    RTC[DS3231<br>(RTC, I2C)]
-    SD[SD Card Module<br>(SPI)]
-    Flash[W25Q512JVEIQ<br>(64MB NOR Flash, SPI)]
-    Buttons[Butoane Boot/Reset<br>(GPIO)]
-    BatteryMonitor[MAX17048<br>(Battery Monitor, I2C)]
-    USB[USB-C Port<br>(Power & Data)]
-    Qwiic[Qwiic/Stemma Connector<br>(I2C Expansion)]
-    Power[Power Management System]
-    Battery[Baterie Li-Po<br>(3.7V, 2500mAh)]
-    Charger[MCP73831<br>(Charging Controller)]
-    LDO[LDO XC6220A331MR-G<br>(3.3V)]
+    ESP[ESP32-C6-WROOM-1-N8 (Microcontroller)]
+    EInk[E-Ink Display (7.5", SPI)]
+    BME[BME688 (Environmental Sensor, I2C)]
+    RTC[DS3231 (RTC, I2C)]
+    SD[SD Card Module (SPI)]
+    Flash[W25Q512JVEIQ (64MB NOR Flash, SPI)]
+    Btn[Butoane Boot/Reset (GPIO)]
+    BatMon[MAX17048 (Battery Monitor, I2C)]
+    USB[USB-C Port (Power & Data)]
+    Qwiic[Qwiic/Stemma Connector (I2C Expansion)]
+    Pwr[Power Management System]
+    Batt[Baterie Li-Po (3.7V, 2500mAh)]
+    Charger[MCP73831 (Charging Controller)]
+    LDO[LDO XC6220A331MR-G (3.3V)]
     
     ESP -->|SPI| EInk
     ESP -->|I2C| BME
     ESP -->|I2C| RTC
     ESP -->|SPI| SD
     ESP -->|SPI| Flash
-    ESP --> Buttons
-    ESP -->|I2C| BatteryMonitor
+    ESP --> Btn
+    ESP -->|I2C| BatMon
     ESP --> USB
     ESP -->|I2C| Qwiic
-    ESP --> Power
-    Power --> Battery
-    Power --> Charger
-    Power --> LDO
+    ESP --> Pwr
+    Pwr --> Batt
+    Pwr --> Charger
+    Pwr --> LDO
+
 
 
 ## Descriere Hardware si Asignarea Pinilor pe ESP32-C6
