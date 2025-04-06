@@ -19,6 +19,64 @@ Dascalu Stefan-Nicolae 331 CA
 - **Modelul 3D:**
   - Modelul 3D al dispozitivului nu a fost implementat.
 
+
+## Descriere Hardware Detaliata si Asignarea Pinilor pe ESP32-C6
+
+- **ESP32-C6-WROOM-1-N8 (Microcontroler Principal)**
+  - Microcontrolerul ofera suport pentru WiFi 6, Bluetooth 5 LE si dispune de un nucleu RISC-V ce functioneaza pana la 160 MHz.
+  - Interfetele disponibile includ SPI, I2C, UART si GPIO, fiind baza pentru conectarea celorlalte module.
+
+- **BME688 (Senzor Ambiental)**
+  - Maseaza temperatura, umiditatea, presiunea atmosferica si calitatea aerului.
+  - Interfata: I2C
+  - Pini utilizati: SDA -> IO21, SCL -> IO22
+  - Alegerea acestor pini se face pentru a beneficia de o comunicatie I2C rapida si fiabila.
+
+- **DS3231SN (Real-Time Clock)**
+  - Asigura cronometrare de inalta precizie, chiar si in lipsa alimentarii principale.
+  - Interfata: I2C (se partajeaza cu BME688)
+  - Pini utilizati: SCL -> IO22, SDA -> IO21, INT_RTC -> IO8, 32KHZ -> IO1, RTC_RST -> IO18
+  - Acesti pini asigura functii suplimentare de intrerupere si reset pentru modulul RTC.
+
+- **Afisaj E-Ink (7.5 inch)**
+  - Afisajul ofera o rezolutie de 800 x 480 pixeli si functioneaza prin interfata SPI.
+  - Pini utilizati: EPD_CS -> IO10, EPD_DC -> IO5, EPD_RST -> IO23, EPD_BUSY -> IO3 (EPD_BUSY este partajat cu MISO)
+  - Linile MOSI si SCK sunt partajate cu modulul SD, permitand optimizarea numarului de pini utilizati.
+
+- **Modul SD Card**
+  - Permite stocarea locala a datelor, cum ar fi e-bookurile sau firmware-ul.
+  - Interfata: SPI
+  - Pini utilizati: SS_SD -> IO4, MOSI -> IO7, MISO -> IO2, SCK -> IO6
+  - Aceste asignari asigura sincronizarea corecta a datelor pe interfata SPI.
+
+- **Memorie Externa Flash (W25Q512JVEIQ, 64MB)**
+  - Memoria flash externa este utilizata pentru stocarea firmware-ului si a datelor importante.
+  - Interfata: SPI
+  - Pini utilizati: FLASH_CS -> IO12 (MOSI, MISO si SCK sunt partajate cu modulul SD)
+  
+- **Interfata USB/SD**
+  - Asigura alimentarea si transferul de date prin USB.
+  - Pini utilizati: USB_D+ -> IO13, USB_D- -> IO12
+
+- **Butoane Boot si Reset**
+  - Permit accesul la modul boot si efectuarea unui reset hardware.
+  - Pini utilizati: IO/BOOT -> IO9, RESET -> un pin dedicat (conform schemei)
+
+- **Sistem de Alimentare si Management**
+  - Bateria Li-Po (3.7V, 2500mAh) alimenteaza sistemul.
+  - Controlerul de incarcare MCP73831 gestioneaza incarcarea prin USB-C.
+  - Monitorizarea bateriei se realizeaza cu MAX17048, care comunica prin I2C (reutilizand SDA/IO21 si SCL/IO22).
+  - Regulatorul LDO XC6220A331MR-G furnizeaza 3.3V stabile pentru toate modulele.
+  
+- **Conector USB-C**
+  - Principalul conector pentru alimentare si transfer de date, protejat de circuit ESD.
+
+- **Conector Qwiic/Stemma QT**
+  - Permite extinderea usoara a sistemului cu module suplimentare I2C.
+  - Utilizeaza acelasi bus I2C (SDA -> IO21, SCL -> IO22) ca si senzorii si modulul RTC.
+
+
+
 ## BOM:
 | Component                                               | Link             |
 |---------------------------------------------------------|------------------|
