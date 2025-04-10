@@ -2701,7 +2701,7 @@ Stemma QT</text>
 <text x="1615.44" y="1264.92" size="1.778" layer="94">drawn by: Dascalu Stefan-Nicolae</text>
 <text x="1602.74" y="1371.6" size="3.81" layer="95">Battery Charge Level
 </text>
-<text x="1564.64" y="1259.84" size="3.81" layer="94">OpenBook Schematic</text>
+<text x="1562.1" y="1257.3" size="3.81" layer="94">OpenBook Schematic</text>
 <text x="1366.52" y="1374.14" size="3.81" layer="95">EPD Power
 </text>
 <text x="1419.86" y="1376.68" size="3.81" layer="95">Environmental Sensor BME688</text>
