@@ -19,6 +19,10 @@ Dascalu Stefan-Nicolae 331CA
 - **Modelul 3D:**
   - Modelul 3D al dispozitivului nu a fost implementat.
 
+
+## Imagine 3D
+![Imagine 3D](Images/poza3d.png)
+
 ## Diagrama bloc a proiectului:
 
 ![Diagrama bloc](Images/diagrama.png)
