@@ -17,7 +17,7 @@ Dascalu Stefan-Nicolae 331CA
   - Am generat fisierele **Gerber**, **Pick and Place** si **BOM**.
 
 - **Modelul 3D:**
-  - Modelul 3D al dispozitivului nu a fost implementat.
+  - Modelul 3D al dispozitivului a fost implementat.
 
 
 ## Imagine 3D
